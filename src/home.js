@@ -1,5 +1,3 @@
-// home.js (nebo initialPageLoad.js)
-
 export default function loadPageHome() {
     const contentDiv = document.getElementById('content');
 
@@ -12,7 +10,7 @@ export default function loadPageHome() {
     // První box - Popis
     const firstBox = document.createElement('div');
     firstBox.textContent = "Beary's has the best porridge! The atmosphere and customer service make you feel like you are sitting in the middle of the woods, eating like a bear! This is exactly the kind of place that I like to return to again and again.";
-    firstBox.classList.add('info-box'); // Opraveno: přidání třídy správnému elementu
+    firstBox.classList.add('info-box');
     contentDiv.appendChild(firstBox);
 
     // Druhý box - Otevírací doba

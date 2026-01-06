@@ -1,5 +1,3 @@
-// about.js
-
 export default function loadPageAbout() {
     const contentDiv = document.getElementById('content');
 
@@ -20,8 +18,7 @@ export default function loadPageAbout() {
     addressP.textContent = "🏠 123 Forest Drive, Forestville, Maine";
     contactContainer.appendChild(addressP);
 
-    // Obrázek mapy (volitelné)
-    // Pro ukázku jen vytvoříme placeholder
+    // Placeholder
     const mapPlaceholder = document.createElement('div');
     mapPlaceholder.textContent = "[Map Placeholder]";
     mapPlaceholder.style.backgroundColor = "#ccc";
